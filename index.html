@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 바나나 예측</title>
+</head>
+<body>
+  <h2>🍌 과일 이미지 업로드</h2>
+  <form action="/cgi-bin/predict.py" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*" required>
+    <br><br>
+    <button type="submit">예측하기</button>
+  </form>
+</body>
+</html>
